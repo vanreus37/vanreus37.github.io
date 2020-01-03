@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+/*Header*/
+.header {
+    position: fixed;
+    background-color: #ff0000;
+    padding: 0;
+    margin: 20px;
+    width: 96%;
+    z-index: 9999;
+}
+
+.header .logo {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.header p {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    float: right;
+    color: white;
+    font-size: 120px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#wrapper {
+    z-index: -1;
+    width:100vw; 
+    height:100vh; 
+    overflow:hidden;
+    margin:10px 0 0 0;
+    border:1px solid #777;
+  }
+  
+  #map {
+    position:relative; 
+  }
+  
+  #map img{
+    position:absolute;
+    top:0;
+    height: 100vh;
+    left:0;
+    border:0 none transparent;
+  }
+
+  #bottom-companies{
+      z-index: 9999;
+      overflow-x:auto;
+      /*background-color: #ff0000;*/
+      position: fixed;
+      left: 0;
+      margin: 20px;
+      bottom: 0;
+      width: 96%;
+      height: 10vh;
+      color: white;
+      text-align: center;
+  }
+
+
+  .companies{
+      vertical-align: center;
+  }
+
+  .companies img{
+    margin-right: 30px;
+    width: 10vh;
+    height: 10vh;
+  }
