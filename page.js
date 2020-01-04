@@ -4,7 +4,17 @@ Draggable.create("#map img", {
         edgeResistance:0.5
  });
 
+
+function init(){
+    var vw = window.innerWidth/100;
+    var vh = window.innerHeight/100;
+
+    //document.getElementById('bottom-companies').style.bottom = 30*vw+'px';
+    //document.getElementById('bottom-companies').style.height = 10*vh+'px';
+}
+
 function companies(index){
+    document.getElementById("")
     document.getElementById("info-container").style.display = "block";
     document.getElementById("bottom-companies").style.display = "none";
     if(index == 0){
