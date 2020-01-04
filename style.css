@@ -62,7 +62,7 @@ body{
       overflow-x:auto;
       /*background-color: #ff0000;*/
       position: fixed;
-      bottom: 15vh;
+      bottom: 15vw;
       left: 0;
       margin: 20px;
       width: 96%;
@@ -83,25 +83,25 @@ body{
 
   #info-container .textarea{
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     height: 56vh;
     overflow-y: scroll;
   }
 
   #info-container h1{
-    margin: 20px;
+    margin: 5px;
     margin-left: 50px;
     text-align: left;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     display: inline-block;
   }
 
   #info-container #close{
     font-family: sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     float: right;
     margin-right: 40px;
   }
@@ -110,7 +110,7 @@ body{
     margin-left: 30px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .companies{
