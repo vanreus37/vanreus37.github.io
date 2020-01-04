@@ -62,11 +62,11 @@ body{
       overflow-x:auto;
       /*background-color: #ff0000;*/
       position: fixed;
+      bottom: 15vh;
       left: 0;
-      bottom: 300px;
       margin: 20px;
       width: 96%;
-      height: 10vh;
+      height: 15vh;
       color: white;
       text-align: center;
   }
@@ -75,7 +75,7 @@ body{
     display: none;
     z-index: 9999;
     position: fixed;
-    top: 210px;
+    top: 100px;
     background-color: #d53233;
     width: 100.5vw;
     height: 70vh;
@@ -94,24 +94,23 @@ body{
     text-align: left;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 50px;
     display: inline-block;
   }
 
   #info-container #close{
     font-family: sans-serif;
     color: white;
-    right: 0;
-    font-size: 80px;
+    font-size: 50px;
     float: right;
-    margin-right:3%;
+    margin-right: 40px;
   }
 
   #info-container p{
     margin-left: 30px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .companies{
